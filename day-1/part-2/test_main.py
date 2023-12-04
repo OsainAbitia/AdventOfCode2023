@@ -1,3 +1,6 @@
+# Tests from SlowFlo, they helped me to understand and find the reason
+# my code was not working at all and comprehend the use of tests!
+# visit his repo on https://github.com/SlowFlo/advent_of_code_2023/blob/main/.gitignore
 from main import getCalibrationValuesWithStrings
 
 def test_one_digit_is_found_twice():
