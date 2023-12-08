@@ -1,4 +1,4 @@
-def cubeConundrum(lines):
+def cubeConundrum(lines: list) -> int:
     total = 0
     existing_cubes = {
         'red': 12,

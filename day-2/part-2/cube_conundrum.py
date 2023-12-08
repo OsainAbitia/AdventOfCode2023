@@ -1,4 +1,4 @@
-def cubeConundrum(lines):
+def cubeConundrum(lines: list) -> int:
     total = 0
     
     # Evaluate each game
