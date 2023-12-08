@@ -1,5 +1,3 @@
-import re
-
 DIRECTIONS = [
         (-1, -1), # Top-left
         (-1, 0),  # Up
