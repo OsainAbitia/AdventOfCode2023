@@ -1,9 +1,20 @@
-def getCardPoints(winning_numbers: list, owned_numbers: list) ->dict:
+def getCardPoints(winning_numbers: list, owned_numbers: list) -> int:
+    """Find the matching winning cards against the owned cards
+    
+    Inputs:
+        winning_numbers: list of winning numbers
+        owned_numbers: list of owned numbers
+
+    Returns:
+        int: length of the list of matching numbers
+    """
+
     earned_points = [i for i in owned_numbers if i in winning_numbers]
 
     return len(earned_points)
 
 def scratchcards(cards: list) -> int:
+    """Main function that returns the total number of scratch cards points."""
     total = 0
 
     for i in range(len(cards)):
